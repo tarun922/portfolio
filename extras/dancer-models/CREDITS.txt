@@ -1,0 +1,9 @@
+dancer.vrm = "VRM1_Constraint_Twist_Sample" by pixiv Inc. (c) 2022 pixiv Inc.
+  From github.com/vrm-c/vrm-specification (samples). VRM license: https://vrm.dev/licenses/1.0/
+  Permission: everyone. Redistribution and modification allowed. Credit not required.
+  Textures were downscaled and converted to WebP to reduce size.
+dance.glb = "SambaDance" animation (only the rotation tracks plus hip height), taken from the
+  "Michelle" model in the three.js examples (github.com/mrdoob/three.js). The animation originates from
+  Mixamo (Adobe). Check Mixamo's terms before using it commercially.
+To use your own character: replace dancer.vrm with any VRM model. To change the dance, replace dance.glb
+with another Mixamo animation exported as glTF (it only needs the skeleton and an animation).

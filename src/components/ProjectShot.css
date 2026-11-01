@@ -1,0 +1,9 @@
+.shot {
+  margin: 0 0 28px; border-radius: 16px; overflow: hidden;
+  border: 2px solid var(--accent); background: var(--night);
+  box-shadow: 0 24px 70px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.shot-bar { display: flex; align-items: center; gap: 7px; padding: 10px 14px; background: #ffffff12; }
+.shot-bar i { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); opacity: .8; }
+.shot-bar span { margin-left: 10px; font-size: .85rem; color: var(--muted); }
+.shot-body img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }

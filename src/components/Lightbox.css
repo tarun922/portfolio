@@ -1,0 +1,6 @@
+.lb { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: rgba(10, 8, 24, .94); }
+.lb img { max-width: 92vw; max-height: 86vh; border-radius: 14px; border: 2px solid var(--accent); }
+.lb-btn { position: absolute; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; border: 0; cursor: pointer; background: var(--accent); color: #15122b; }
+.lb-close { top: 20px; right: 20px; }
+.lb-prev { left: 20px; top: 50%; transform: translateY(-50%); }
+.lb-next { right: 20px; top: 50%; transform: translateY(-50%); }

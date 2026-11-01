@@ -1,0 +1,12 @@
+.hero { padding-top: 56px; min-height: calc(100vh - 80px); position: relative; }
+.hero-card { max-width: 600px; padding: 44px; }
+.hero-tag { display: inline-flex; align-items: center; gap: 6px; padding: 5px 14px; border-radius: 999px; background: rgba(255, 255, 255, .12); border: 1px solid rgba(255, 255, 255, .22); font-size: .85rem; font-weight: 700; }
+.hero-title { font-size: clamp(3.5rem, 11vw, 7rem); font-weight: 900; color: var(--sakura); margin: 18px 0 6px; }
+.hero-headline { font-family: var(--font-display); font-size: clamp(1.05rem, 2.4vw, 1.45rem); margin: 14px 0; }
+.hero-intro { color: var(--muted); max-width: 52ch; margin: 0; }
+.hero-chips { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 24px 0 0; }
+.hero-chips li { padding: 6px 14px; border-radius: 999px; background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .2); font-size: .9rem; font-weight: 500; }
+.hero-actions { display: flex; gap: 12px; margin-top: 30px; flex-wrap: wrap; }
+.hero-cue { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); color: var(--muted); display: grid; place-items: center; padding: 8px; border-radius: 50%; }
+.hero-cue:hover { color: var(--cel); }
+@media (max-width: 600px) { .hero-card { padding: 28px; } }

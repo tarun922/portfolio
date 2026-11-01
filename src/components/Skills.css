@@ -1,0 +1,5 @@
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.skillgroup { padding: 26px; }
+.skillgroup h3 { display: flex; align-items: center; gap: 10px; font-size: 1rem; color: var(--sakura); margin-bottom: 16px; }
+.skillgroup ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.skillgroup li { padding: 6px 14px; background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .18); border-radius: 999px; font-weight: 500; }

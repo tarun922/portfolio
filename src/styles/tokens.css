@@ -1,0 +1,17 @@
+:root {
+  --night: #100d24;
+  --cel: #f6f3ff;
+  --muted: #bdb7e0;
+  --sakura: #ff5fa2;
+  --accent: #ff5fa2;
+  --font-display: "Unbounded", system-ui, sans-serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  --radius: 28px;
+  --wrap: 1120px;
+
+  /* glass: dark-tinted so text stays readable over the bright 3D images */
+  --glass-bg: linear-gradient(135deg, rgba(70, 60, 140, .5), rgba(28, 24, 66, .42));
+  --glass-border: rgba(255, 255, 255, .22);
+  --glass-blur: blur(16px) saturate(1.5);
+  --glass-shadow: 0 24px 60px rgba(6, 4, 20, .5), inset 0 1px 0 rgba(255, 255, 255, .3), inset 0 -1px 0 rgba(255, 255, 255, .06);
+}

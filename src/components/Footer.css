@@ -1,0 +1,8 @@
+.footer {
+  display: flex; justify-content: space-between; align-items: center;
+  width: min(var(--wrap), calc(100% - 24px)); margin: 0 auto 18px; padding: 16px 26px; color: var(--muted);
+  background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 999px; box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+}
+.footer a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+.footer a:hover { color: var(--cel); }

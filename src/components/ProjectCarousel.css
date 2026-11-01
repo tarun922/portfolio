@@ -1,0 +1,23 @@
+.car {
+  margin: 0 0 28px; border-radius: 22px; overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent) 60%, rgba(255, 255, 255, .2));
+  background: rgba(10, 8, 28, .55);
+  box-shadow: 0 24px 70px color-mix(in srgb, var(--accent) 38%, transparent), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.car-bar { display: flex; align-items: center; gap: 7px; padding: 10px 14px; background: rgba(255, 255, 255, .1); }
+.car-bar i { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); opacity: .85; }
+.car-host { flex: 1; min-width: 0; margin-left: 10px; font-size: .85rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.car-full { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px; border: 0; cursor: pointer; background: rgba(255, 255, 255, .14); color: var(--cel); }
+.car-full:hover { background: var(--accent); color: #15122b; }
+.car-viewport { position: relative; overflow: hidden; touch-action: pan-y; }
+.car-track { display: flex; transition: transform .5s cubic-bezier(.2, .8, .2, 1); }
+.car-slide { flex: 0 0 100%; min-width: 0; }
+.car-slide img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; cursor: zoom-in; user-select: none; }
+.car-nav { position: absolute; top: 50%; transform: translateY(-50%); display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; cursor: pointer; background: rgba(20, 16, 50, .7); color: var(--cel); border: 1px solid rgba(255, 255, 255, .3); }
+.car-nav:hover { background: var(--accent); color: #15122b; }
+.car-nav.prev { left: 12px; }
+.car-nav.next { right: 12px; }
+.car-count { position: absolute; top: 12px; right: 12px; padding: 3px 12px; border-radius: 999px; background: rgba(20, 16, 50, .7); border: 1px solid rgba(255, 255, 255, .25); font-size: .85rem; font-weight: 700; }
+.car-dots { position: absolute; bottom: 12px; left: 0; right: 0; display: flex; justify-content: center; gap: 7px; }
+.car-dots button { width: 9px; height: 9px; padding: 0; border-radius: 50%; border: 0; cursor: pointer; background: #ffffff70; }
+.car-dots button.on { width: 26px; border-radius: 6px; background: var(--accent); }
